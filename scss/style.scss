@@ -21,11 +21,9 @@ $base-link-color    : #000000;
 $base-hdr-color     : #000000;
 $base-line-height   : 1.3;
 
-$breakpoint-smallest : 450px;
-$breakpoint-medium : 600px;
+/* Breakpoints */
+$breakpoint-small : 450px;
 $breakpoint-large : 800px; 
-$breakpoint-larger : 950px;
-$breakpoint-largest : 1100px;
 
 $font-primary : calibriregular;
 
