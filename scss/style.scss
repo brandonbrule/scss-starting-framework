@@ -1,0 +1,184 @@
+/******************************************************************
+Site Name: System Performance CPACC
+Author: bv02
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+
+// import normalize
+@import "normalize";
+
+// import mixins
+@import "mixins";
+
+
+/* =Variables, Mixins etc...
+-------------------------------------------------------------------------------------------------------------------- */
+$base-font-size     : 1em;
+$base-text-color    : #000000;
+$base-link-color    : #000000;
+$base-hdr-color     : #000000;
+$base-line-height   : 1.3;
+
+$breakpoint-smallest : 450px;
+$breakpoint-medium : 600px;
+$breakpoint-large : 800px; 
+$breakpoint-larger : 950px;
+$breakpoint-largest : 1100px;
+
+$font-primary : calibriregular;
+
+/* =Web Fonts
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* = Nice Resets 
+-------------------------------------------------------------------------------------------------------------------- */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+/* Selection Styles - Change colors to match design */
+::-moz-selection    { background: #d2d1cb; text-shadow: none; }
+::selection         { background: #d2d1cb; text-shadow: none; }
+
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+audio, canvas, img, video { vertical-align: middle; }
+
+
+/* =Base
+-------------------------------------------------------------------------------------------------------------------- */
+/* Font size was at 1.2em - reset for larger text */
+body { font-size: 1em; font-family: $font-primary; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+/* =Links */
+a           {  text-decoration: underline; }
+a:hover     { color: #000; }
+a:focus     { color: #000; outline: thin dotted; }
+a:hover, 
+a:active    { outline: 0; }
+
+img     { vertical-align: middle; max-width: 100%; height: auto; }
+hr      { border-top: 1px solid #ccc; display: block; height: 1px; border: 0; margin: 1em 0; padding: 0; }
+
+h1, h2, h3, h4, h5 ,h6 { }
+
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+ul, ol, dl  { }
+p           { }
+ul          { }
+
+strong { }
+em { }
+
+@media only screen and (min-width: $breakpoint-large) {
+	h1 {  }
+}
+
+
+/* =Helpers
+------------------------------------------------------ */
+.first                      { margin-left: 0 !important; }
+.last                       { margin-right: 0 !important; }
+
+/* =Forms
+------------------------------------------------------ */
+fieldset        { margin: 0; padding: 0; border: 0; }
+fieldset legend { }
+
+button,
+input,
+select,
+textarea { }
+textarea { resize: vertical; }
+
+select                      { }
+
+::-webkit-input-placeholder { color: #000000; }
+:-moz-placeholder           { color: #000000; }
+::-moz-placeholder          { color: #000000; }
+:-ms-input-placeholder      { color: #000000; }
+input[placeholder],
+[placeholder]               { color: #000000; }
+
+
+/* = Form Base Styles
+---------------------------- */
+form input {
+}
+input[type="text"] {
+
+}
+input[type="checkbox"] {
+
+}
+input[type="radio"] {
+
+}
+input[type="submit"] {
+}
+form textarea {
+
+}
+
+/* ------------------------------------------------------ */
+
+
+
+/* = Layout
+-------------------------------------------------------------------------------------------------------------------- */
+@import 'grid';
+
+
+
+
+/* = Header
+-------------------------------------------------------------------------------------------------------------------- */
+
+@import 'header';
+
+
+/* = Main Navigation
+-------------------------------------------------------------------------------------------------------------------- */
+@import 'main-navigation';
+
+
+
+/* = Home Page Template
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+/* = Landing Pages
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+/* = Contact Template
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+/* = Footer
+-------------------------------------------------------------------------------------------------------------------- */
+@import 'footer';
+
+
+
+/* = Sprites
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+/* = No JS Fixes
+-------------------------------------------------------------------------------------------------------------------- */
+
+
+/* = Print
+-------------------------------------------------------------------------------------------------------------------- */
+
+@import 'print';
