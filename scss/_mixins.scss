@@ -18,7 +18,7 @@ Mixins & Extensions
 //  clearfix
 //  @extend .clearfix;
 // ----------------- //
-%clearfix {
+.clearfix {
   *zoom: 1;
   &:before, &:after {
     content: " ";
@@ -28,7 +28,6 @@ Mixins & Extensions
     clear: both;
   }
 }
-
 
 
 // ----------------- //
