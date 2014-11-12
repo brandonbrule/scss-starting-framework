@@ -1,0 +1,70 @@
+body { 
+  font-size: 1em;
+  font-family: $font-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%; 
+  text-size-adjust: 100%; 
+}
+
+/* =Links */
+a           {  }
+a:hover     {  }
+a:focus     {  }
+a:hover, 
+a:active    {  }
+
+img     { vertical-align: middle; max-width: 100%; height: auto; }
+hr      { border-top: 1px solid #ccc; display: block; height: 1px; border: 0; margin: 1em 0; padding: 0; }
+
+h1, h2, h3, h4, h5 ,h6 { }
+
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+ul, ol, dl  { }
+p           { }
+ul          { }
+
+strong { }
+em { }
+
+@media only screen and (min-width: $breakpoint-large) {
+  h1 {  }
+}
+
+/* =Forms
+------------------------------------------------------ */
+fieldset        {  }
+fieldset legend {  }
+
+button,
+input,
+select,
+textarea { }
+textarea { }
+
+::-webkit-input-placeholder { color: #000000; }
+:-moz-placeholder           { color: #000000; }
+::-moz-placeholder          { color: #000000; }
+:-ms-input-placeholder      { color: #000000; }
+input[placeholder],
+[placeholder]               { color: #000000; }
+
+
+/* = Form Input Styles
+---------------------------- */
+input { }
+input[type="text"] {  }
+input[type="checkbox"] {  }
+input[type="radio"] {  }
+input[type="submit"] {  }
+textarea {  }
+
+select                      { }
