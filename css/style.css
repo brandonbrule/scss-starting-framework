@@ -367,6 +367,14 @@ th {
 Mixins & Extensions
 
 ******************************************************************/
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
 /* = Variables 
 -------------------------------------------------------------------------------------------------------------------- */
 /* Breakpoints */
